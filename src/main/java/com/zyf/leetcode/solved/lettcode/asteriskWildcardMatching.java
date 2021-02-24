@@ -83,4 +83,8 @@ public class asteriskWildcardMatching {
         }
         return res[s.length()][p.length()] == 1;
     }
+
+    public static void main(String[] args) {
+        
+    }
 }
