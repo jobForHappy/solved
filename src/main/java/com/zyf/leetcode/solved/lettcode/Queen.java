@@ -30,7 +30,6 @@ public class Queen {
             }
             finaResult.add(tmp);
         }
-        
         return finaResult;
     }
     
