@@ -1,5 +1,7 @@
 package com.zyf.leetcode.solved.lettcode;
 
+import java.net.Socket;
+
 /**
  * @Title: FindNumbers.java
  * @Package com.zyf.leetcode.solved.lettcode
@@ -40,6 +42,12 @@ public class FindNumbers {
         
         return false;
     }
-    
-    
+
+    public static void main(String[] args) throws Exception{
+
+        Socket socket1 = new Socket("127.0.0.1", 8080);
+        while (true){
+            socket1.getOutputStream().write("w de".getBytes());
+        }
+    }
 }
