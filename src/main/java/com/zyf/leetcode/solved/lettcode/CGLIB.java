@@ -3,7 +3,7 @@ package com.zyf.leetcode.solved.lettcode;
 /**
  * @Title: CGLIB.java
  * @Package com.zyf.leetcode.solved.lettcode
- * @Description: 动态代理
+ * @Description: 动态
  * @Author: Administrator
  * @Date: 2021/6/11 16:57
  * @Version V1.0
